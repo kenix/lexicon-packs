@@ -6,7 +6,9 @@
     "en": {
       "name": "English",
       "release": "lexicon-en-v1",
-      "bundled": ["grammar"],
+      "bundled": [
+        "grammar"
+      ],
       "packs": {
         "grammar": {
           "file": "lexicon_en_grammar.db.gz",
@@ -18,7 +20,10 @@
           "gzSha256": "84c4683d7c53cad005907bbe140991137458ae138ee087f5e75fc811744aeb54",
           "dbBytes": 33685504,
           "dbSha256": "196b54ae61bbde23ca14e83ec183cc86e333880b221e0d25884ea41fff3d430e",
-          "rows": { "lemma": 29622, "inflected": 617216 }
+          "rows": {
+            "lemma": 29622,
+            "inflected": 617216
+          }
         },
         "ipa": {
           "file": "lexicon_en_ipa.db.gz",
@@ -32,14 +37,18 @@
           "gzSha256": "737c8639987e6dd23c3ad6a55f79d5681dcef052cbd1b1e03eee7323e497cdbe",
           "dbBytes": 3092480,
           "dbSha256": "fec3b69c35b2d6f4de9fc5efc526a78f0c298109774b3168da90e888da04da52",
-          "rows": { "pronunciation": 92261 }
+          "rows": {
+            "pronunciation": 92261
+          }
         }
       }
     },
     "de": {
       "name": "German",
       "release": "lexicon-de-v2",
-      "bundled": ["grammar"],
+      "bundled": [
+        "grammar"
+      ],
       "packs": {
         "grammar": {
           "file": "lexicon_de_grammar.db.gz",
@@ -51,7 +60,10 @@
           "gzSha256": "21a6133cfa84a950940a1f7b4f2d5c3e1c43e8f05182b280c56ae6087cc3c673",
           "dbBytes": 20434944,
           "dbSha256": "bcc1aed18c6460565531a4d24857ec346f7762301a2bf05293cecb4ffc487ae6",
-          "rows": { "lemma": 207739, "inflected": 272776 }
+          "rows": {
+            "lemma": 207739,
+            "inflected": 272776
+          }
         },
         "ipa": {
           "file": "lexicon_de_ipa.db.gz",
@@ -65,7 +77,49 @@
           "gzSha256": "a0d1dc7770e426c7bc8000a5e61fb0d36af28095f923e1e6cd4d65ef9d8d09a2",
           "dbBytes": 2064384,
           "dbSha256": "e06d1239fedc0c16b903fd16695f78945d79b265651a725d9727c157e1e036c6",
-          "rows": { "pronunciation": 51495 }
+          "rows": {
+            "pronunciation": 51495
+          }
+        }
+      }
+    },
+    "zh": {
+      "name": "Chinese (Simplified and Traditional)",
+      "release": "lexicon-zh-v1",
+      "bundled": [],
+      "notes": "Wiktionary keys Chinese on the Traditional spelling; 108,477 Simplified spellings are resolved to it, so a capture in either script finds the same entry. The grammar pack holds no forms and no gender — Chinese has neither — and is in effect a script conversion table.",
+      "packs": {
+        "grammar": {
+          "file": "lexicon_zh_grammar.db.gz",
+          "packVersion": 1,
+          "licence": "CC0-1.0",
+          "source": "Wikidata Lexemes",
+          "sourceUrl": "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data",
+          "gzBytes": 4721908,
+          "gzSha256": "4446f8c8b0ab209843e8a962e509a14f493296d60b89900f346e73dd32410b85",
+          "dbBytes": 8818688,
+          "dbSha256": "6ce6ebae93f1431ac2e16f00fcc510e538416a15ef364ee473782b298b027818",
+          "rows": {
+            "lemma": 0,
+            "inflected": 198367
+          }
+        },
+        "ipa": {
+          "file": "lexicon_zh_ipa.db.gz",
+          "packVersion": 1,
+          "licence": "CC-BY-SA-4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source": "Wiktionary via wiktextract",
+          "sourceUrl": "https://www.wiktionary.org",
+          "attribution": "Pronunciations extracted from Wiktionary (https://www.wiktionary.org) via wiktextract. Licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Modified: reduced to one Mandarin pinyin reading per word.",
+          "notation": "Mandarin pinyin with tone marks, not IPA",
+          "gzBytes": 2972944,
+          "gzSha256": "47a8f5f0bd8174d525fa95d5f507d75c7cbc81acbcf5f4db73029e2e49a63e0c",
+          "dbBytes": 7118848,
+          "dbSha256": "dca40a65ec67032904e6937ee8e3817d6a3ed1113a79c2f314159e8811e66d15",
+          "rows": {
+            "pronunciation": 263431
+          }
         }
       }
     }
