@@ -1,0 +1,13 @@
+# The data is staged here and published as release assets, never committed:
+# a release asset can be replaced, while a 20 MB binary in the history is in
+# every clone for ever.
+#
+# What stays tracked is the text that defines a release — the manifest, the
+# attribution and the release notes. They are small, they are the contract an
+# app is written against, and one of them is the licence notice CC BY-SA
+# obliges us to keep with the data.
+*.db
+*.db.gz
+*.gz
+*.zip
+.DS_Store
