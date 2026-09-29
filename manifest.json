@@ -1,6 +1,6 @@
 {
   "manifestVersion": 3,
-  "generated": "2026-09-17",
+  "generated": "2026-09-28",
   "base": "https://github.com/kenix/lexicon-packs/releases/download/",
   "languages": {
     "en": {
@@ -119,6 +119,272 @@
           "dbSha256": "dca40a65ec67032904e6937ee8e3817d6a3ed1113a79c2f314159e8811e66d15",
           "rows": {
             "pronunciation": 263431
+          }
+        }
+      }
+    },
+    "es": {
+      "name": "Spanish",
+      "release": "lexicon-es-v1",
+      "bundled": [],
+      "packs": {
+        "grammar": {
+          "file": "lexicon_es_grammar.db.gz",
+          "packVersion": 1,
+          "licence": "CC0-1.0",
+          "source": "Wikidata Lexemes",
+          "sourceUrl": "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data",
+          "gzBytes": 13482084,
+          "gzSha256": "5e2a8081f353a25fcb15c6b6e0c1dae48c1c875619d8187e2a1c07f0287e93ac",
+          "dbBytes": 37163008,
+          "dbSha256": "ce64c064facea7de7f7dca72b84d1b37ff6a2783d4d6b574e0e0f4cb71979c69",
+          "rows": {
+            "lemma": 83793,
+            "inflected": 690476
+          }
+        },
+        "ipa": {
+          "file": "lexicon_es_ipa.db.gz",
+          "packVersion": 1,
+          "licence": "CC-BY-SA-4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source": "Wiktionary via wiktextract",
+          "sourceUrl": "https://www.wiktionary.org",
+          "attribution": "Pronunciations extracted from Wiktionary (https://www.wiktionary.org) via wiktextract. Licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Modified: reduced to one phonemic transcription per word.",
+          "gzBytes": 864194,
+          "gzSha256": "a96d8ea8f3c1fa6866b228c8d7a0f649023f13901bca6b73e8b4fcd1e055e227",
+          "dbBytes": 2248704,
+          "dbSha256": "7efde7d245b0dfbc898c3d3e46761a7b71c05efd4e7480d1dc00d5ca5ccd4e97",
+          "rows": {
+            "pronunciation": 67973
+          }
+        }
+      }
+    },
+    "it": {
+      "name": "Italian",
+      "release": "lexicon-it-v1",
+      "bundled": [],
+      "packs": {
+        "grammar": {
+          "file": "lexicon_it_grammar.db.gz",
+          "packVersion": 1,
+          "licence": "CC0-1.0",
+          "source": "Wikidata Lexemes",
+          "sourceUrl": "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data",
+          "gzBytes": 9096986,
+          "gzSha256": "9a3e8b217675aadbeb333bb0abaa234c8fac8070166f9a78c151cf7d4801d7d9",
+          "dbBytes": 25440256,
+          "dbSha256": "5d2a605dfcf864df3815a80ba2313e5581a6e86d3de782cd982dad5086056f41",
+          "rows": {
+            "lemma": 76478,
+            "inflected": 458558
+          }
+        },
+        "ipa": {
+          "file": "lexicon_it_ipa.db.gz",
+          "packVersion": 1,
+          "licence": "CC-BY-SA-4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source": "Wiktionary via wiktextract",
+          "sourceUrl": "https://www.wiktionary.org",
+          "attribution": "Pronunciations extracted from Wiktionary (https://www.wiktionary.org) via wiktextract. Licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Modified: reduced to one phonemic transcription per word.",
+          "gzBytes": 614108,
+          "gzSha256": "cce2ed43e8e7a7c2cd42fc9648438d95f5d5f9e6bbf53b79a098a1215d61f6c5",
+          "dbBytes": 1724416,
+          "dbSha256": "c0b5df0f7c4b7fbdcc0fb541fab44fa483a3345944b82c6b0d54e5193b040e75",
+          "rows": {
+            "pronunciation": 48772
+          }
+        }
+      }
+    },
+    "fr": {
+      "name": "French",
+      "release": "lexicon-fr-v1",
+      "bundled": [],
+      "packs": {
+        "grammar": {
+          "file": "lexicon_fr_grammar.db.gz",
+          "packVersion": 1,
+          "licence": "CC0-1.0",
+          "source": "Wikidata Lexemes",
+          "sourceUrl": "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data",
+          "gzBytes": 6330511,
+          "gzSha256": "94928edea83c1d8104b47cda3d77b84d5783643f04159658d32ce864a14c9552",
+          "dbBytes": 16637952,
+          "dbSha256": "561befe3922d8bf218f15d2888f817f0a40645c7276da23836d227cd662de451",
+          "rows": {
+            "lemma": 52959,
+            "inflected": 303141
+          }
+        },
+        "ipa": {
+          "file": "lexicon_fr_ipa.db.gz",
+          "packVersion": 1,
+          "licence": "CC-BY-SA-4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source": "Wiktionary via wiktextract",
+          "sourceUrl": "https://www.wiktionary.org",
+          "attribution": "Pronunciations extracted from Wiktionary (https://www.wiktionary.org) via wiktextract. Licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Modified: reduced to one phonemic transcription per word.",
+          "gzBytes": 852422,
+          "gzSha256": "0ebd75cd6a010079caf1b085d73d428b1260a209883ef6bc67700fa517cb8dd8",
+          "dbBytes": 2158592,
+          "dbSha256": "c775ece0d4cb959c5791d2bc1e040b70f80a65275bad253b93c277cbd86428d8",
+          "rows": {
+            "pronunciation": 61581
+          }
+        }
+      }
+    },
+    "pt": {
+      "name": "Portuguese",
+      "release": "lexicon-pt-v1",
+      "bundled": [],
+      "packs": {
+        "grammar": {
+          "file": "lexicon_pt_grammar.db.gz",
+          "packVersion": 1,
+          "licence": "CC0-1.0",
+          "source": "Wikidata Lexemes",
+          "sourceUrl": "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data",
+          "gzBytes": 7424777,
+          "gzSha256": "ce75cecb42e9e545fec184ea22b0d9cff076ac69f2efe68b3dd70ec6bdc3f59a",
+          "dbBytes": 19361792,
+          "dbSha256": "24b9fbcdf9ad68ef4b17c9a1d50d4078a0c919abf74855a32eb11f6a219dbcbe",
+          "rows": {
+            "lemma": 65199,
+            "inflected": 363298
+          }
+        },
+        "ipa": {
+          "file": "lexicon_pt_ipa.db.gz",
+          "packVersion": 1,
+          "licence": "CC-BY-SA-4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source": "Wiktionary via wiktextract",
+          "sourceUrl": "https://www.wiktionary.org",
+          "attribution": "Pronunciations extracted from Wiktionary (https://www.wiktionary.org) via wiktextract. Licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Modified: reduced to one phonemic transcription per word.",
+          "gzBytes": 657092,
+          "gzSha256": "fb61a0fc78b874832db1dbcf8da51eaf8268331833615e2373125580776e1bb3",
+          "dbBytes": 1757184,
+          "dbSha256": "c987a3a0bb0b0b6c5414e78d565de05af27b897af37917e3e974e4195dc6ee22",
+          "rows": {
+            "pronunciation": 47704
+          }
+        }
+      }
+    },
+    "ru": {
+      "name": "Russian",
+      "release": "lexicon-ru-v1",
+      "bundled": [],
+      "packs": {
+        "grammar": {
+          "file": "lexicon_ru_grammar.db.gz",
+          "packVersion": 1,
+          "licence": "CC0-1.0",
+          "source": "Wikidata Lexemes",
+          "sourceUrl": "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data",
+          "gzBytes": 8827974,
+          "gzSha256": "9c93d1169cc797b1db21ded39e9ce7350a7fe7d310002aaccbbcff9029b46c81",
+          "dbBytes": 32661504,
+          "dbSha256": "d1739288aef5a3c4e88b01e3b0f32fd9572a3bb18fe02aa56b57e127ee4b942e",
+          "rows": {
+            "lemma": 99699,
+            "inflected": 380723
+          }
+        },
+        "ipa": {
+          "file": "lexicon_ru_ipa.db.gz",
+          "packVersion": 1,
+          "licence": "CC-BY-SA-4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source": "Wiktionary via wiktextract",
+          "sourceUrl": "https://www.wiktionary.org",
+          "attribution": "Pronunciations extracted from Wiktionary (https://www.wiktionary.org) via wiktextract. Licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Modified: reduced to one phonemic transcription per word.",
+          "gzBytes": 732220,
+          "gzSha256": "82c3ad1969efcdd8a2c1965ef7a7aa67523ea115334054b0776fc122fc132b22",
+          "dbBytes": 2310144,
+          "dbSha256": "35c189e77b843c7a9e2323299b46f40a8b9e15c7153598b2b4921d8b48adc240",
+          "rows": {
+            "pronunciation": 48363
+          }
+        }
+      }
+    },
+    "sv": {
+      "name": "Swedish",
+      "release": "lexicon-sv-v1",
+      "bundled": [],
+      "packs": {
+        "grammar": {
+          "file": "lexicon_sv_grammar.db.gz",
+          "packVersion": 1,
+          "licence": "CC0-1.0",
+          "source": "Wikidata Lexemes",
+          "sourceUrl": "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data",
+          "gzBytes": 5562821,
+          "gzSha256": "7a42ffe94526a91bbc2a64d147c69033a778fa499f39025887582842068e4599",
+          "dbBytes": 14360576,
+          "dbSha256": "33091c957ac80d08071052ee87ee0eddc37c28263e012465c5cb7934fa02d255",
+          "rows": {
+            "lemma": 44457,
+            "inflected": 251003
+          }
+        },
+        "ipa": {
+          "file": "lexicon_sv_ipa.db.gz",
+          "packVersion": 1,
+          "licence": "CC-BY-SA-4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source": "Wiktionary via wiktextract",
+          "sourceUrl": "https://www.wiktionary.org",
+          "attribution": "Pronunciations extracted from Wiktionary (https://www.wiktionary.org) via wiktextract. Licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Modified: reduced to one phonemic transcription per word.",
+          "gzBytes": 65062,
+          "gzSha256": "c644374827cabf9b0a3ac1a8374937f725a28c785c8fa19824f67846e8f5217b",
+          "dbBytes": 147456,
+          "dbSha256": "5f4f8080cfdccb7ac49fe46e4371f76a8bedfd9d2bc162833d05909d0b1906c1",
+          "rows": {
+            "pronunciation": 4449
+          }
+        }
+      }
+    },
+    "da": {
+      "name": "Danish",
+      "release": "lexicon-da-v1",
+      "bundled": [],
+      "packs": {
+        "grammar": {
+          "file": "lexicon_da_grammar.db.gz",
+          "packVersion": 1,
+          "licence": "CC0-1.0",
+          "source": "Wikidata Lexemes",
+          "sourceUrl": "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data",
+          "gzBytes": 1205555,
+          "gzSha256": "1582da7e23bdda4d737a16c02046e576e8287816406013e92ce1d400c9600825",
+          "dbBytes": 3059712,
+          "dbSha256": "4761ea92b66374c55ac740851ae9765e7de33175434fce680e04b9ede9bcc7e2",
+          "rows": {
+            "lemma": 74375,
+            "inflected": 32149
+          }
+        },
+        "ipa": {
+          "file": "lexicon_da_ipa.db.gz",
+          "packVersion": 1,
+          "licence": "CC-BY-SA-4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source": "Wiktionary via wiktextract",
+          "sourceUrl": "https://www.wiktionary.org",
+          "attribution": "Pronunciations extracted from Wiktionary (https://www.wiktionary.org) via wiktextract. Licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Modified: reduced to one phonemic transcription per word.",
+          "gzBytes": 89447,
+          "gzSha256": "5ce2eabd62d64b0d5fa0d19689e2e333a815c7d7e06f2895a93df17ec77329a7",
+          "dbBytes": 196608,
+          "dbSha256": "b45ab35ee23e6fab589941a398269c62951785266162fdef0b3c4197f4d2b6c2",
+          "rows": {
+            "pronunciation": 6475
           }
         }
       }
