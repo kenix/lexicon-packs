@@ -1,11 +1,11 @@
-# English lexicon pack v1
+# English lexicon pack v2
 
 Structural lexicon for English, for Word Garner and anything else that wants
 it. Two files under two different licences, which is why they are two files.
 
 | File | Compressed | On disk | Rows |
 |---|---:|---:|---|
-| `lexicon_en_grammar.db.gz` | 15.0 M | 32.1 M | 29,622 lemmas, 617,216 forms |
+| `lexicon_en_grammar.db.gz` | 15.2 M | 32.3 M | 29,622 lemmas, 617,216 forms, 15,156 part-of-speech pairs |
 | `lexicon_en_ipa.db.gz` | 1.2 M | 2.9 M | 92,261 pronunciations |
 
 `lexicon_en_grammar.db` holds the irregular forms — `child`/`children`,
@@ -16,6 +16,14 @@ is what keeps the file this size. 29,622 lemmas is not thin coverage; it is
 the count of English words with something irregular about them.
 
 `lexicon_en_ipa.db` holds one phonemic transcription per word.
+
+## What changed in v2
+
+The grammar file gains one table, `lemma_pos`: the kinds of word a lemma can
+be, for the lemmas that can be more than one — `spar` is a noun and a verb, `light` an adjective, adverb, noun and verb. From Wikidata's lexical
+categories, so it is CC0 like the rest of the file. Nothing else in either
+file changed; the pronunciation file is republished unchanged so that both
+halves share a version.
 
 ## Licences
 

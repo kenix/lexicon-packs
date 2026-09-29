@@ -1,16 +1,17 @@
-# Danish lexicon pack v1
+# Danish lexicon pack v2
 
 Structural lexicon for Danish, for Word Garner and anything else that wants
 it. Two files under two different licences, which is why they are two files.
 
 | File | Compressed | On disk | Rows |
 |---|---:|---:|---|
-| `lexicon_da_grammar.db.gz` | 1.1 M | 2.9 M | 74375 lemmas, 32149 forms |
+| `lexicon_da_grammar.db.gz` | 1.2 M | 3.0 M | 74375 lemmas, 32149 forms, 2354 part-of-speech pairs |
 | `lexicon_da_ipa.db.gz` | 0.1 M | 0.2 M | 6475 pronunciations |
 
 `lexicon_da_grammar.db` holds grammatical gender, the
 part of speech of nouns that carry one, and a form table that resolves an
-inflected word to its dictionary form. No irregular-form list yet: Word Garner
+inflected word to its dictionary form, and the kinds of word each lemma can be
+where it can be more than one (English "spar": noun, verb). No irregular-form list yet: Word Garner
 has no rules for which Danish forms are regular, so none are singled out.
 
 `lexicon_da_ipa.db` holds one phonemic

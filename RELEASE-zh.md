@@ -1,12 +1,20 @@
-# Chinese lexicon pack v1
+# Chinese lexicon pack v2
 
 Structural lexicon for Chinese, covering both Simplified and Traditional. Two
 files under two different licences, which is why they are two files.
 
 | File | Compressed | On disk | Rows |
 |---|---:|---:|---|
-| `lexicon_zh_grammar.db.gz` | 4.5 M | 8.4 M | 198,367 script mappings |
+| `lexicon_zh_grammar.db.gz` | 4.6 M | 8.4 M | 198,367 script mappings, 3,360 part-of-speech pairs |
 | `lexicon_zh_ipa.db.gz` | 2.8 M | 6.8 M | 263,431 pinyin readings |
+
+## What changed in v2
+
+The grammar file gains one table, `lemma_pos`: the kinds of word a lemma can
+be, for the lemmas that can be more than one. From Wikidata's lexical
+categories, so it is CC0 like the rest of the file. Nothing else in either
+file changed; the pronunciation file is republished unchanged so that both
+halves share a version.
 
 ## What is different about Chinese
 
@@ -26,7 +34,7 @@ do.
 tense, so there is nothing of that kind to store and none is stored — a
 gender letter under a Chinese word would be a bug. What the file actually is
 is a 198,367-row script conversion table, which is what lets a capture
-resolve at all.
+resolve at all, and since v2 the kinds of word a lemma can be.
 
 **Single characters are covered.** A single character is the commonest thing
 a learner of Chinese captures, and a dictionary files it under neither noun

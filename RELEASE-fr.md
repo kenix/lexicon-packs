@@ -1,16 +1,17 @@
-# French lexicon pack v1
+# French lexicon pack v2
 
 Structural lexicon for French, for Word Garner and anything else that wants
 it. Two files under two different licences, which is why they are two files.
 
 | File | Compressed | On disk | Rows |
 |---|---:|---:|---|
-| `lexicon_fr_grammar.db.gz` | 6.0 M | 15.9 M | 52959 lemmas, 303141 forms |
+| `lexicon_fr_grammar.db.gz` | 6.1 M | 15.9 M | 52959 lemmas, 303141 forms, 748 part-of-speech pairs |
 | `lexicon_fr_ipa.db.gz` | 0.8 M | 2.1 M | 61581 pronunciations |
 
 `lexicon_fr_grammar.db` holds grammatical gender, the
 part of speech of nouns that carry one, and a form table that resolves an
-inflected word to its dictionary form. No irregular-form list yet: Word Garner
+inflected word to its dictionary form, and the kinds of word each lemma can be
+where it can be more than one (English "spar": noun, verb). No irregular-form list yet: Word Garner
 has no rules for which French forms are regular, so none are singled out.
 
 `lexicon_fr_ipa.db` holds one phonemic

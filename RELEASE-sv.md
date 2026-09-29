@@ -1,16 +1,17 @@
-# Swedish lexicon pack v1
+# Swedish lexicon pack v2
 
 Structural lexicon for Swedish, for Word Garner and anything else that wants
 it. Two files under two different licences, which is why they are two files.
 
 | File | Compressed | On disk | Rows |
 |---|---:|---:|---|
-| `lexicon_sv_grammar.db.gz` | 5.3 M | 13.7 M | 44457 lemmas, 251003 forms |
+| `lexicon_sv_grammar.db.gz` | 5.3 M | 13.7 M | 44457 lemmas, 251003 forms, 638 part-of-speech pairs |
 | `lexicon_sv_ipa.db.gz` | 0.1 M | 0.1 M | 4449 pronunciations |
 
 `lexicon_sv_grammar.db` holds grammatical gender, the
 part of speech of nouns that carry one, and a form table that resolves an
-inflected word to its dictionary form. No irregular-form list yet: Word Garner
+inflected word to its dictionary form, and the kinds of word each lemma can be
+where it can be more than one (English "spar": noun, verb). No irregular-form list yet: Word Garner
 has no rules for which Swedish forms are regular, so none are singled out.
 
 `lexicon_sv_ipa.db` holds one phonemic

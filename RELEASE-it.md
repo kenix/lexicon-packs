@@ -1,16 +1,17 @@
-# Italian lexicon pack v1
+# Italian lexicon pack v2
 
 Structural lexicon for Italian, for Word Garner and anything else that wants
 it. Two files under two different licences, which is why they are two files.
 
 | File | Compressed | On disk | Rows |
 |---|---:|---:|---|
-| `lexicon_it_grammar.db.gz` | 8.7 M | 24.3 M | 76478 lemmas, 458558 forms |
+| `lexicon_it_grammar.db.gz` | 8.7 M | 24.3 M | 76478 lemmas, 458558 forms, 4353 part-of-speech pairs |
 | `lexicon_it_ipa.db.gz` | 0.6 M | 1.6 M | 48772 pronunciations |
 
 `lexicon_it_grammar.db` holds grammatical gender, the
 part of speech of nouns that carry one, and a form table that resolves an
-inflected word to its dictionary form. No irregular-form list yet: Word Garner
+inflected word to its dictionary form, and the kinds of word each lemma can be
+where it can be more than one (English "spar": noun, verb). No irregular-form list yet: Word Garner
 has no rules for which Italian forms are regular, so none are singled out.
 
 `lexicon_it_ipa.db` holds one phonemic

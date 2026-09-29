@@ -1,11 +1,11 @@
-# German lexicon pack v2
+# German lexicon pack v3
 
 Structural lexicon for German, for Word Garner and anything else that wants
 it. Two files under two different licences, which is why they are two files.
 
 | File | Compressed | On disk | Rows |
 |---|---:|---:|---|
-| `lexicon_de_grammar.db.gz` | 7.0 M | 19.5 M | 207,739 lemmas, 272,776 forms |
+| `lexicon_de_grammar.db.gz` | 7.0 M | 19.5 M | 207,739 lemmas, 272,776 forms, 703 part-of-speech pairs |
 | `lexicon_de_ipa.db.gz` | 797 K | 2.0 M | 51,495 pronunciations |
 
 `lexicon_de_grammar.db` holds grammatical gender, the irregular forms —
@@ -16,6 +16,14 @@ forms are dropped on that rule. Every noun keeps a row regardless, because
 every German noun has a gender worth carrying.
 
 `lexicon_de_ipa.db` holds one phonemic transcription per word.
+
+## What changed in v3
+
+The grammar file gains one table, `lemma_pos`: the kinds of word a lemma can
+be, for the lemmas that can be more than one. German has few: it writes the noun `Essen` and the verb `essen` apart, and those are two lemmas. From Wikidata's lexical
+categories, so it is CC0 like the rest of the file. Nothing else in either
+file changed; the pronunciation file is republished unchanged so that both
+halves share a version.
 
 ## What changed in v2
 

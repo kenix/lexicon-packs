@@ -1,16 +1,17 @@
-# Russian lexicon pack v1
+# Russian lexicon pack v2
 
 Structural lexicon for Russian, for Word Garner and anything else that wants
 it. Two files under two different licences, which is why they are two files.
 
 | File | Compressed | On disk | Rows |
 |---|---:|---:|---|
-| `lexicon_ru_grammar.db.gz` | 8.4 M | 31.1 M | 99699 lemmas, 380723 forms |
+| `lexicon_ru_grammar.db.gz` | 8.4 M | 31.2 M | 99699 lemmas, 380723 forms, 95 part-of-speech pairs |
 | `lexicon_ru_ipa.db.gz` | 0.7 M | 2.2 M | 48363 pronunciations |
 
 `lexicon_ru_grammar.db` holds grammatical gender, the
 part of speech of nouns that carry one, and a form table that resolves an
-inflected word to its dictionary form. No irregular-form list yet: Word Garner
+inflected word to its dictionary form, and the kinds of word each lemma can be
+where it can be more than one (English "spar": noun, verb). No irregular-form list yet: Word Garner
 has no rules for which Russian forms are regular, so none are singled out.
 
 `lexicon_ru_ipa.db` holds one phonemic

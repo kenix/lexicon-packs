@@ -1,16 +1,17 @@
-# Portuguese lexicon pack v1
+# Portuguese lexicon pack v2
 
 Structural lexicon for Portuguese, for Word Garner and anything else that wants
 it. Two files under two different licences, which is why they are two files.
 
 | File | Compressed | On disk | Rows |
 |---|---:|---:|---|
-| `lexicon_pt_grammar.db.gz` | 7.1 M | 18.5 M | 65199 lemmas, 363298 forms |
+| `lexicon_pt_grammar.db.gz` | 7.2 M | 18.8 M | 65199 lemmas, 363298 forms, 18694 part-of-speech pairs |
 | `lexicon_pt_ipa.db.gz` | 0.6 M | 1.7 M | 47704 pronunciations |
 
 `lexicon_pt_grammar.db` holds grammatical gender, the
 part of speech of nouns that carry one, and a form table that resolves an
-inflected word to its dictionary form. No irregular-form list yet: Word Garner
+inflected word to its dictionary form, and the kinds of word each lemma can be
+where it can be more than one (English "spar": noun, verb). No irregular-form list yet: Word Garner
 has no rules for which Portuguese forms are regular, so none are singled out.
 
 `lexicon_pt_ipa.db` holds one phonemic

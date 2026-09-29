@@ -1,16 +1,17 @@
-# Spanish lexicon pack v1
+# Spanish lexicon pack v2
 
 Structural lexicon for Spanish, for Word Garner and anything else that wants
 it. Two files under two different licences, which is why they are two files.
 
 | File | Compressed | On disk | Rows |
 |---|---:|---:|---|
-| `lexicon_es_grammar.db.gz` | 12.9 M | 35.4 M | 83793 lemmas, 690476 forms |
+| `lexicon_es_grammar.db.gz` | 12.9 M | 35.6 M | 83793 lemmas, 690476 forms, 8259 part-of-speech pairs |
 | `lexicon_es_ipa.db.gz` | 0.8 M | 2.1 M | 67973 pronunciations |
 
 `lexicon_es_grammar.db` holds grammatical gender, the
 part of speech of nouns that carry one, and a form table that resolves an
-inflected word to its dictionary form. No irregular-form list yet: Word Garner
+inflected word to its dictionary form, and the kinds of word each lemma can be
+where it can be more than one (English "spar": noun, verb). No irregular-form list yet: Word Garner
 has no rules for which Spanish forms are regular, so none are singled out.
 
 `lexicon_es_ipa.db` holds one phonemic
